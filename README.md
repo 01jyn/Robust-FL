@@ -48,6 +48,6 @@ python HHF/HHF.py
     ├── README.md
 ```
 # [References](#contents)
--Article:[Robust Federated Learning with Noisy and Heterogeneous Client](CVPR 2022 Open Access Repository)
+- Article:[Robust Federated Learning with Noisy and Heterogeneous Client](CVPR 2022 Open Access Repository)
   Xiuwen Fang, Mang Ye CVPR 2022
 - Code:https://github.com/FangXiuwen/Robust_FL

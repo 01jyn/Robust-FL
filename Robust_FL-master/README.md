@@ -43,7 +43,6 @@ python HHF/HHF.py
         ├── regularizer.py
     ├── HHF
         ├── HHF.py
-                ├── HHF.py
     ├── loss.py
     ├── weight_loss.py
     ├── README.md

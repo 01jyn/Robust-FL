@@ -8,7 +8,7 @@ This repository provides resources for the following paper:
 
 Our experiments are conducted on two datasets, Cifar10 and Cifar100. We set public dataset on the server as a subset of Cifar100, and randomly divide Cifar10 to different clients as private datasets.
 
-Dataset used: [CIFAR-10、CIFAR-100](http://www.cs.toronto.edu/~kriz/cifar.html)
+Dataset used: [CIFAR-10 、CIFAR-100](http://www.cs.toronto.edu/~kriz/cifar.html)
 
 Note: Data will be processed in init_data.py
 
@@ -44,10 +44,7 @@ python HHF/HHF.py
     ├── HHF
         ├── HHF.py
                 ├── HHF.py
-        ├── test
-        ├── Model_Storage
-                ├── Performance_Analysis
     ├── loss.py
-        ├── weight_loss.py
+    ├── weight_loss.py
     ├── README.md
 

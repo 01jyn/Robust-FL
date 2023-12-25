@@ -9,7 +9,8 @@ This repository provides resources for the following paper:
 Our experiments are conducted on two datasets, Cifar10 and Cifar100. We set public dataset on the server as a subset of Cifar100, and randomly divide Cifar10 to different clients as private datasets.
 
 Dataset used: [CIFAR-10、CIFAR-100](http://www.cs.toronto.edu/~kriz/cifar.html)
-Download the CIFAR-10、CIFAR-100 datasets and extract them to dataset/
+
+Download the CIFAR-10、CIFAR-100 datasets and extract them to Dataset/
 
 Note: Data will be processed in init_data.py
 

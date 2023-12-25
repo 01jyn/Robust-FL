@@ -23,20 +23,21 @@ Note: Data will be processed in init_data.py
 
 After installing MindSpore via the official website, you can start training and evaluation as follows:
 ```
-cd Robust_FL-master/HHF
+cd Robust_FL/HHF
 ```
 # [Change configs](#contents)  
-  **Change the parameters in Robust_FL-master/HHF/HHF.py**
-```bash
-# init public data and local data
-python Dataset/init_data.py
-# pretrain local models
-python Network/pretrain.py
-# RHFL
+  **Change the parameters in Robust_FL/HHF/HHF.py**
 
-python HHF/HHF.py
-```
+1. ```Dataset_dir``` should be the file path of the training dataset.
+2.  ```Network_dir``` will store the models. 
+3.  ```Logs_dir```will store the logs
+   
+# [Load pretrained model](#contents)
 
+   ```python pretrain.py --Pytorch -- ./Robust_FL/Network/```
+
+ # [Train the model](#contents)
+ ```python HHF/HHF.py first --Pytorch -- ./Robust_FL/HHF/```
 
 # [Script and Sample Code](#contents)
 ```bash

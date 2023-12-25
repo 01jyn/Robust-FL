@@ -1,8 +1,8 @@
-# Robust federated learning based on self-paced learning
+# A Balanced coarse-to-fine federated learning framework for noisy heterogeneous clients
+ ![image](https://github.com/01jyn/Robust-FL/assets/95575818/1e4d4a8d-4c86-4366-83fe-a8bdf1643e88)
 
-This repository provides resources for the following paper:
 
-> [**Robust federated learning based on self-paced learning**]
+> [**Balanced Coarse-to-Fine Federated Learning For Noisy Heterogeneous Clients**]
 
 # [Dataset](#contents)
 

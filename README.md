@@ -1,9 +1,12 @@
 # A Balanced coarse-to-fine federated learning framework for noisy heterogeneous clients
+                                           Framework
  ![image](https://github.com/01jyn/Robust-FL/assets/95575818/1e4d4a8d-4c86-4366-83fe-a8bdf1643e88)
 
-
-> [**Balanced Coarse-to-Fine Federated Learning For Noisy Heterogeneous Clients**]
-
+# [Requirements]
+  Python 3.10.8
+  
+  Pytorch 1.12.1
+  
 # [Dataset](#contents)
 
 Our experiments are conducted on two datasets, Cifar10 and Cifar100. We set public dataset on the server as a subset of Cifar100, and randomly divide Cifar10 to different clients as private datasets.
@@ -28,7 +31,6 @@ python HHF/HHF.py
 ```
 
 # [Script and Sample Code](#contents)
-
 ```bash
 ├── Robust_FL
     ├── Dataset
